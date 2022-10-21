@@ -84,4 +84,77 @@
 .user-form{
     margin-left:830px;
     margin-top:200px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.user-form-normal-els{
+    display:flex;
+    flex-direction:column;
+    margin-top:15px;
+}
+
+.user-expiry-cont{
+    display:flex;
+    flex-direction:row;
+    margin-top:15px;
+}
+
+.user-card-dates{
+    display:flex;
+    flex-direction:column;
+}
+
+.user-form-normal-els-cvv{
+    display:flex;
+    flex-direction:column;
+    margin-left:13px;
+}
+
+.confirm-but{
+    width:412px;
+    margin-top:15px;
+    background-color:rgb(56, 6, 101);
+    height:50px;
+    padding:5px;
+    cursor: pointer;
+    border-width:0px;
+    border-radius:6px;
+    color:white;
+    font-size:16px;
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card-creds{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: capitalize;
+    font-weight:bold;
+    font-size:14px;
+    color:rgb(23, 23, 56)
+}
+
+.placeholder-val{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width:400px;
+    padding:6px;
+    margin-top:3px;
+    font-size:14px;
+    border-radius:6px;
+    border-color: rgb(91, 89, 89);
+    border-width:1px;
+    height:30px;
+}
+
+.placeholder-inp{
+    width:126px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding:2px;
+    font-size:11px;
+    text-transform: capitalize;
+    border-radius: 6px;
+    height:30px;
+    border-color: rgb(91, 89, 89);
+    border-width:1px;
 }

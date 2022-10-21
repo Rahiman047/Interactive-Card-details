@@ -25,27 +25,29 @@
       </div>
     </div>
     <form class="user-form">
-      <div>
-        <label>Cardholder Name</label>
-        <input placeholder="e.g. Jane Appleseed"/>
+      <div class="user-form-normal-els">
+        <label class="card-creds">CARDHOLDER NAME</label>
+        <input placeholder="e.g. Jane Appleseed" class='placeholder-val'/>
       </div>
-      <div>
-        <label>Card Number</label>
-        <input placeholder="e.g. 1234 5678 9123 0000"/>
+      <div class="user-form-normal-els">
+        <label class="card-creds">CARD NUMBER</label>
+        <input placeholder="e.g. 1234 5678 9123 0000" class='placeholder-val'/>
       </div>
-      <div>
-        <div>
-          <label>Exp. Date (MM/YY)</label>
-          <input placeholder="MM"/>
-          <input placeholder="YY"/>
+      <div class="user-expiry-cont">
+        <div class="uer-card-dates">
+          <label class="card-creds">EXP. DATE (MM/YY)</label>
+          <div>
+            <input placeholder="MM" class="placeholder-inp"/>
+            <input placeholder="YY" class="placeholder-inp"/>
+          </div>
         </div>
-        <div>
-          <label>CVC</label>
-          <input placeholder="e.g. 123"/>
+        <div class="user-form-normal-els-cvv">
+          <label class="card-creds">CVC</label>
+          <input placeholder="e.g. 123" class="placeholder-inp"/>
         </div>
       </div>
-      <div>
-        <button type="submit">Confirm</button>
+      <div class="submit-button">
+        <button type="submit" class="confirm-but">Confirm</button>
       </div>
     </form>
   
