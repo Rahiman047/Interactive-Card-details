@@ -14,36 +14,36 @@
         <div>
           <svg width="84" height="47" fill="none" xmlns="http://www.w3.org/2000/svg"><ellipse cx="23.478" cy="23.5" rx="23.478" ry="23.5" fill="#fff"/><path d="M83.5 23.5c0 5.565-4.507 10.075-10.065 10.075-5.559 0-10.065-4.51-10.065-10.075 0-5.565 4.506-10.075 10.065-10.075 5.558 0 10.065 4.51 10.065 10.075Z" stroke="#fff"/></svg>
         </div>
-        <p class="user-acc-num">0000 0000 0000 0000</p>
+        <p class="user-acc-num" id="userNum">0000 0000 0000 0000</p>
         <div class="user-vals-bottom">
-          <p class="user-name">Jane Appleseed</p>
-          <p class="user-expiry">00/00</p>
+          <p class="user-name" id="userName">Jane Appleseed</p>
+          <p class="user-expiry" id="userMonYear">00/00</p>
         </div>
       </div>
       <div class="back-card-cont">
-        <p class="user-cvv">000</p>
+        <p class="user-cvv" id="userCvv">000</p>
       </div>
     </div>
     <form class="user-form" id="formEl">
       <div class="user-form-normal-els">
         <label class="card-creds">CARDHOLDER NAME</label>
-        <input placeholder="e.g. Jane Appleseed" class='placeholder-val'/>
+        <input placeholder="e.g. Jane Appleseed" class='placeholder-val' id="name" value=""/>
       </div>
       <div class="user-form-normal-els">
         <label class="card-creds">CARD NUMBER</label>
-        <input placeholder="e.g. 1234 5678 9123 0000" class='placeholder-val'/>
+        <input placeholder="e.g. 1234 5678 9123 0000" class='placeholder-val' id="num" value=""/>
       </div>
       <div class="user-expiry-cont">
         <div class="uer-card-dates">
           <label class="card-creds">EXP. DATE (MM/YY)</label>
           <div>
-            <input placeholder="MM" class="placeholder-inp"/>
-            <input placeholder="YY" class="placeholder-inp"/>
+            <input placeholder="MM" class="placeholder-inp" id='mon' value=""/>
+            <input placeholder="YY" class="placeholder-inp" id='year' value=""/>
           </div>
         </div>
         <div class="user-form-normal-els-cvv">
           <label class="card-creds">CVC</label>
-          <input placeholder="e.g. 123" class="placeholder-inp"/>
+          <input placeholder="e.g. 123" class="placeholder-inp" id="cvv" value=""/>
         </div>
       </div>
       <div class="submit-button">
